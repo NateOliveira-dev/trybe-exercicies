@@ -1,0 +1,22 @@
+header {
+    display: inline-block;
+    background-color: aqua;
+    width: 100%;
+}
+
+.cabeçalho-esquerda {
+    display: inline-block;
+}
+
+.cabeçalho-direita {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.cabeçalho-direita ul li {
+    display: inline;
+}
+
+.cabeçalho-direita li {
+    padding-left: 2em;
+}
