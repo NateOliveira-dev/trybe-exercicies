@@ -5,6 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +29,7 @@
     </header>
     <main>
         <article>
-            <section>
+            <section id="container-table">
                 <h1>
                     FATOS SOBRE O STOMATOPODAS
                 </h1>
@@ -45,33 +50,25 @@
                 <aside>
                     <table>
                         <tr>
-                            <td>Reino:</td>
+                            <th>Reino</th>
+                            <th>Filo</th>
+                            <th>Subfilo</th>
+                            <th>Classe</th>
+                            <th>Subclasse</th>
+                            <th>Ordem</th>
+                        </tr>
+                        <tr>
                             <td>Animalia</td>
-                        </tr>
-                        <tr>
-                            <td>Filo:</td>
                             <td>Arthropoda</td>
-                        </tr>
-                        <tr>
-                            <td>Subfilo:</td>
                             <td>Crustacea</td>
-                        </tr>
-                        <tr>
-                            <td>Classe:</td>
                             <td>Malacostraca</td>
-                        </tr>
-                        <tr>
-                            <td>Subclasse:</td>
                             <td>Hoplocarida</td>
-                        </tr>
-                        <tr>
-                            <td>Ordem:</td>
-                            <td><strong>Stomatopoda</strong></td>
+                            <td>Stomatopoda</td>
                         </tr>
                     </table>
                 </aside>
             </section>
-            <section>
+            <section id="container">
                 <h1 class="tittle">
                     O ANIMAL MAIS FORTE DE MUNDO
                 </h1>
@@ -81,12 +78,17 @@
                     uma intensidade de aproximadamente <strong>60 kg/cm²</strong> (daí o motivo de um de seus nomes ser
                     lagosta-boxeadora).
                 </p>
-                
+                <p>
+                    A força de um soco do camarão mantis é de 1500 newtons ou cerca de 152 quilos, enquanto o soco médio
+                    de um ser humano está na casa dos 3300 newtons ou 336 quilos. Ou seja, eles são muito menores que a
+                    gente, mas dão socos com a metade da nossa força.
+                </p>
             </section>
-            <section>
+            <section id="container-2">
                 <h1 class="tittle">
                     TEM UM "PRIMO" QUE FOI INSPIRAÇÃO O FILME "PROJECT POWER"DA NETFLIX.
                 </h1>
+                <img src="./img/mantis .jpeg" alt="imagem do animal" class="img-animal">
                 <p>
                     A família do Camarão Mantis tem espécies para lá de interessantes, tanto que uma delas foi
                     fundamental para a composição de um personagem do filme Project Power.
@@ -96,12 +98,12 @@
                     rapidez, produz não apenas um altíssimo som de estalo, mas também uma onda de choque super quente
                     que atinge sua presa de forma fatal (algo bem parecido com a habilidade de seu “primo”)
                 </p>
-                <img src="./img/mantis .jpeg" alt="">
             </section>
-            <section>
+            <section id="container-3">
                 <h1 class="tittle">
                     O STOMATOPODA POSSUI UMA SUPER VISÃO.
                 </h1>
+                <img src="./img/mantis super vision.gif" alt="imagem da super visão" class="img-visao">
                 <p>
                     Uma das espécies de camarão mantis (Gonodactylus smithii) têm os olhos mais complexos do reino
                     animal e é capaz de ver cores invisíveis a vários outros animais, do ultravioleta ao infravermelho.
@@ -118,13 +120,26 @@
                     percepção de cor. Os quatro cones restantes, lhe permite enxergar imagens multiespectrais, como a
                     luz ultravioleta.
                 </p>
-                <img src="./img/mantis super vision.gif" alt="">
             </section>
-            <section>
+            <section id="container-link">
                 <h1 class="tittle">
                     Veja o verdadeiro <strong>"PUNCH"</strong> do nosso pequeno amigo nesse <a
-                        href="https://www.youtube.com/watch?v=E0Li1k5hGBE"><strong>link!</strong></a>
+                        href="https://www.youtube.com/watch?v=E0Li1k5hGBE"><strong><i>link!</i></strong></a>
                 </h1>
+            </section>
+            <section id="container-referencias">
+                <h1>
+                    Referências bibliográficas
+                </h1>
+                <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Stomatopoda"></a>Wikipedia;</li>
+                    <li><a
+                            href="https://www.aquaa3.com.br/curiosidades-camarao-mantis/#Tem_um_primo_que_foi_inspiracao_o_filme_Project_Power_da_Netflix">AquaA3;</a>
+                    </li>
+                    <li><a
+                            href="https://www.hypeness.com.br/2021/08/camarao-mantis-o-animal-com-o-soco-mais-potente-da-natureza-capaz-de-destruir-aquarios/">Hypeness.</a>
+                    </li>
+                </ul>
             </section>
         </article>
     </main>
