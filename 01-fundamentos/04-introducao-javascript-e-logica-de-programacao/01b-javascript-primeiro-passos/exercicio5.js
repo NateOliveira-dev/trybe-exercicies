@@ -4,6 +4,8 @@ const c = 59;
 
 if (a + b + c == 180) {
     return console.log('true')
-} else {
+} else if (a + b + c !== 180) {
     return console.log('false')
+} else {
+    return console.log('erro')
 }
