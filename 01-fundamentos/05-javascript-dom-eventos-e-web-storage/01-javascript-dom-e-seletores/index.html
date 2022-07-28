@@ -59,33 +59,33 @@
         */
         function exercicio1() {
             document.getElementsByTagName('p')[1].innerHTML = 'Ganhando muito dinheiro sendo web developer!'
-            // document.getElementsByClassName('.main-content')
-            // document.getE
-
         };
         function exercicio2() {
             document.getElementsByClassName("main-content")[0].style.backgroundColor = 'green';
         };
 
         function exercicio3() {
-            document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white'; 
+            document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
         };
 
         function exercicio4() {
             document.getElementsByClassName('title')[0].innerText = 'Exercício 5.1 - JavaScripit';
-        }
+        };
 
         function exercicio5() {
-           let upperCase = document.getElementsByTagName('p').innerText = toUpperCase(p);
-           document.getElementsByTagName('p').innerText = toUpperCase(p).innerText = upperCase.toUpperCase();
-        }
+            document.querySelector('.center-content').innerText = document.querySelector('.center-content').innerText.toUpperCase()
+        };
 
+        function exercicio6() {
+            console.log(document.querySelector('.center-content').innerText);
+        };
 
         exercicio1();
         exercicio2();
         exercicio3();
         exercicio4();
         exercicio5();
+        exercicio6();
     </script>
 </body>
 
