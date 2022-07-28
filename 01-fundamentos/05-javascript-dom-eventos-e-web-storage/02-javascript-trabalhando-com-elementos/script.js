@@ -1,6 +1,6 @@
 function adicionaCor() {
     let pai = document.getElementById('elementoOndeVoceEsta').parentElement.style.color = "blue";
-    //console.log(pai);
+
 }
 adicionaCor();
 
@@ -14,8 +14,6 @@ function acessaElementoPrimeiroFilho(element) {
 }
 acessaElementoPrimeiroFilho('pai');
 acessaElementoPrimeiroFilho('elementoOndeVoceEsta');
-
-//function acessarElemento
 
 function acessaOTexto(element) {
     console.log(document.getElementById(element).nextSibling);
@@ -31,3 +29,18 @@ function acessaTerceiroDoPai(element) {
     console.log(document.getElementById(element).children[2]);
 }
 acessaTerceiroDoPai('pai');
+
+//criando html dinamico//
+let pai = document.getElementById('pai');
+let irmao = document.createElement('section');
+irmao.id='irmao-elemento-onde-vc-esta';
+pai.appendChild(irmao);
+console.log(document.getElementById('pai').children);
+
+//=========================================================//
+
+let filho = document.getElementById('elementoOndeVoceEsta')
+let seiLa = document.createElement('p')
+seiLa.id='tmb-sei-la'
+filho.appendChild(seiLa);
+console.log(seiLa);
