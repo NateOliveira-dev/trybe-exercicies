@@ -44,3 +44,16 @@ let seiLa = document.createElement('p')
 seiLa.id='tmb-sei-la'
 filho.appendChild(seiLa);
 console.log(seiLa);
+
+//==================================================================//
+
+// PASSO 1: Capturar o elemento que será pai.
+
+
+// PASSO 2: Criar o elemento filho. A forma mais comum é com o document.createElement('tag').
+
+
+// PASSO 3: Adicionando características e/ou conteúdo ao novo elemento. Pode ser texto, classes ou ids estilizadas no CSS, entre outros.
+
+
+// PASSO 4: Hora de relacionar pai (passo 1) e filho (passo 2).
