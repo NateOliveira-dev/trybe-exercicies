@@ -63,7 +63,7 @@ console.log(filhote)
 
 //=================================================================================//
 
-console.log(document.getElementById('div-filhote'))
+console.log(document.getElementById('div-filhote').parentElement.parentElement.nextElementSibling)
 // PASSO 1: Capturar o elemento que será pai.
 
 
