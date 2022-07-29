@@ -39,14 +39,31 @@ console.log(document.getElementById('pai').children);
 
 //=========================================================//
 
-let filho = document.getElementById('elementoOndeVoceEsta')
-let seiLa = document.createElement('p')
-seiLa.id='tmb-sei-la'
+let filho = document.getElementById('elementoOndeVoceEsta');
+let seiLa = document.createElement('p');
+seiLa.id='tmb-sei-la';
 filho.appendChild(seiLa);
 console.log(seiLa);
 
 //==================================================================//
 
+let filhoOndeEstou = document.getElementById('elementoOndeVoceEsta');
+let filhinho = document.createElement('div');
+filhinho.id='div-filhinho';
+filhoOndeEstou.appendChild(filhinho);
+console.log(filhinho);
+
+//====================================================================//
+
+let filhoDePrimeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+let filhote = document.createElement('div');
+filhote.id='div-filhote';
+filhoDePrimeiroFilhoDoFilho.appendChild(filhote);
+console.log(filhote)
+
+//=================================================================================//
+
+console.log(document.getElementById('div-filhote'))
 // PASSO 1: Capturar o elemento que será pai.
 
 
