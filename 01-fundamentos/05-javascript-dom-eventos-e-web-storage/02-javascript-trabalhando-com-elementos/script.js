@@ -64,6 +64,22 @@ console.log(filhote)
 //=================================================================================//
 
 console.log(document.getElementById('div-filhote').parentElement.parentElement.nextElementSibling)
+
+//=================================================================================================//
+
+let removePai = document.getElementById('pai');
+
+for (let i = pai.childNodes.length - 1; i >= 0; i -= 1) {
+    let filhoAtual = pai.childNodes[i];
+    if (filhoAtual !== 'elementoOndeVoceEsta' && filhoAtual !== 'segundoEUltimoFilhoDoFilho') {
+        filhoAtual.remove();
+    }
+}
+
+console.log(document.getElementById('pai').children);
+
+
+
 // PASSO 1: Capturar o elemento que será pai.
 
 
