@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Forms Exercício</title>
 </head>
 
@@ -13,11 +14,12 @@
         <h1>Formulário de Viagem!</h1>
     </header>
     <form action="">
-        <label for="nome-do-usuario">Nome</label>
+        <label for="nome-do-usuario">Nome:</label>
         <input type="text" id="nome-do-usuario" name="nome">
         <br>
-        <label for="email-do-usuario">E-mail</label>
+        <label for="email-do-usuario">E-mail:</label>
         <input type="email" id="email-do-usuario" name="email">
+        <br>
         <br>
         <label for="opc1">Opção 1
             <input type="radio" id="opc1" name="opcao">
@@ -31,6 +33,7 @@
         <label for="opc4">Opção 4
             <input type="radio" id="opc4" name="opcao">
         </label>
+        <br>
         <br>
         <label for="text-area">Espaço para digitar sua resposta:</label>
         <br>
@@ -48,8 +51,8 @@
             <input type="checkbox" name="temos" id="termo2">
         </label>
     </form>
-        <input type="button" value="Enviar">
-        <input type="button" value="Apagar">
+    <button type="submit">Enviar</button>
+    <button type="reset">Apagar</button>
 
 </body>
 

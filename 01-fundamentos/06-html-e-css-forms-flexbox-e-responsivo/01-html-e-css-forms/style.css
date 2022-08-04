@@ -1,0 +1,22 @@
+form {
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black;
+    width: 30%;
+}
+
+input {
+    margin: 5px;
+}
+
+label {
+    margin: 5px;
+}
+
+#nome-do-usuario {
+    margin-left: 10px;
+}
+
+#email-do-usuario {
+    margin-left: 6px;
+}
