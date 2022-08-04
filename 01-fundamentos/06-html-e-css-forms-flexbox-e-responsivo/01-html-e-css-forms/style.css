@@ -5,13 +5,6 @@ form {
     width: 30%;
 }
 
-input {
-    margin: 5px;
-}
-
-label {
-    margin: 5px;
-}
 
 #nome-do-usuario {
     margin-left: 10px;
@@ -19,4 +12,31 @@ label {
 
 #email-do-usuario {
     margin-left: 6px;
+}
+
+#nome-email {
+    margin: 5px;
+}
+
+#radio {
+    display: inline-block;
+    margin: 5px;
+}
+
+#texto {
+    margin: 5px;
+}
+
+#texto label {
+    display: inline-block;
+    margin: 5px;
+}
+
+#text-area {
+    resize: none;
+    width: 100%;
+}
+
+#termos {
+    margin: 5px;
 }
