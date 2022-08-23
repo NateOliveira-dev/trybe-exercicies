@@ -88,16 +88,16 @@ function smallerName() {
 
 // 3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
 
-const expectedResult = {
-  id: 1,
-  name: 'As Crônicas de Gelo e Fogo',
-  genre: 'Fantasia',
-  author: {
-    name: 'George R. R. Martin',
-    birthYear: 1948,
-  },
-  releaseYear: 1891,
-};
+// const expectedResult = {
+//   id: 1,
+//   name: 'As Crônicas de Gelo e Fogo',
+//   genre: 'Fantasia',
+//   author: {
+//     name: 'George R. R. Martin',
+//     birthYear: 1948,
+//   },
+//   releaseYear: 1891,
+// };
 
 function getNamedBook() {
   return console.log(books.find((book) => book.name.length === expectedResult.name.length).name);
@@ -114,12 +114,20 @@ function booksOrderedByReleaseYearDesc() {
 
 // 5 - Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
 
-const expectedResult2 = false;
+// const expectedResult2 = false;
 
 function everyoneWasBornOnSecXX() {
   return books.every((valor) => valor.author.birthYear >= 1901 && valor.author.birthYear <= 2000);
 }
 
-console.log(everyoneWasBornOnSecXX());
+// console.log(everyoneWasBornOnSecXX());
 
+// 6 - Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
+
+// const expectedResult3 = true;
+
+function someBookWasReleaseOnThe80s() {
+  return books.some((book) => book.releaseYear >= 1980 && book.releaseYear <= 1989);
+}
+console.log(someBookWasReleaseOnThe80s());
 
