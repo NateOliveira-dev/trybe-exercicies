@@ -106,3 +106,16 @@ function oldBooksOrdered() {
     }).sort((obj1, obj2) => obj1 - obj2);
 };
 // console.log(oldBooksOrdered());
+
+// 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+
+function fantasyOrScienceFictionAuthors() {
+    let newArr3 = [];
+    books.filter((book) => {
+        if (book.genre === 'Fantasia' || book.genre === 'Ficção Científica') {
+            newArr3.push(book.author.name)
+        };
+    });
+    return newArr3.sort();
+};
+// console.log(fantasyOrScienceFictionAuthors());
