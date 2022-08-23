@@ -96,7 +96,7 @@ const expectedResult = {
     name: 'George R. R. Martin',
     birthYear: 1948,
   },
-  releaseYear: 1991,
+  releaseYear: 1891,
 };
 
 function getNamedBook() {
@@ -112,5 +112,14 @@ function booksOrderedByReleaseYearDesc() {
 
 // console.log(booksOrderedByReleaseYearDesc());
 
+// 5 - Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
+
+const expectedResult2 = false;
+
+function everyoneWasBornOnSecXX() {
+  return books.every((valor) => valor.author.birthYear >= 1901 && valor.author.birthYear <= 2000);
+}
+
+console.log(everyoneWasBornOnSecXX());
 
 
