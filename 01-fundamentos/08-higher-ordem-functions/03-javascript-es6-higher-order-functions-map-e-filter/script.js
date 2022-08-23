@@ -85,3 +85,12 @@ function nameAndAge() {
     return newArr2.sort((obj1, obj2) => obj1.age - obj2.age);
 };
 // console.log(nameAndAge());
+
+// 3 - Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
+// Dica: use a função filter;
+
+function fantasyOrScienceFiction() {
+    return books.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica')
+};
+// console.log(fantasyOrScienceFiction());
+
