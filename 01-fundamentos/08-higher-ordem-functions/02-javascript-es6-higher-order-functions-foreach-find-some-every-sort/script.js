@@ -69,7 +69,6 @@ const books = [
 function authorBornIn1947() {
   return console.log(books.find((book) => book.author.birthYear === 1947).author.name);
 };
-
 // authorBornIn1947();
 
 // 2 - Retorne o nome do livro de menor nome.
@@ -85,5 +84,23 @@ function smallerName() {
   // Variável nameBook que receberá o valor do menor nome;
   return console.log(nameBook);
 }
+// smallerName();
 
-smallerName();
+// 3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
+
+const expectedResult = {
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  genre: 'Fantasia',
+  author: {
+    name: 'George R. R. Martin',
+    birthYear: 1948,
+  },
+  releaseYear: 1991,
+};
+
+function getNamedBook() {
+  return console.log(books.find((book) => book.name.length === expectedResult.name.length).name);
+};
+
+getNamedBook();
