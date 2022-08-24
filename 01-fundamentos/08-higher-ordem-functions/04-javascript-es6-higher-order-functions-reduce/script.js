@@ -84,6 +84,8 @@ const books = [
 // 2 - Crie uma string com os nomes de todas as pessoas autoras.
 
 function reduceNames() {
-  // escreva seu código aqui
+  return books.reduce((acc, curr) => `${acc} ${curr.author.name}.`, '');
 };
+
+console.log(reduceNames());
 
