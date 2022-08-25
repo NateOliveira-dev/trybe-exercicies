@@ -96,7 +96,35 @@ const people = [
 const myList = [5, 2, 3];
 const myList2 = [5, 2, 3, 3, 7, 9];
 
-
 const swap = ([a, b, c]) => [c, b, a];
 
-console.log(swap(myList));
+// console.log(swap(myList));
+
+// 6 - Suponha que você esteja lidando com carros e, da forma como o problema lhe foi entregue, cada carro é representado dentro de um array. Então seu chefe pede que seja mudado o formato de array para objeto. Crie uma função toObject que, dada uma lista, retorna um objeto representando o carro:
+// Dica: use array destructuring e abbreviation object literal.
+
+const palio = ['Palio', 'Fiat', 2019];
+const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
+const chiron = ['Chiron', 'Bugatti', 2016];
+
+const toObject = ([vehicle, brand, year]) => {
+  return {
+    vehicle,
+    brand,
+    year,
+  };
+};
+
+// console.log(toObject(palio));
+// console.log(toObject(shelbyCobra));
+// console.log(toObject(chiron));
+
+//==========================OU==============================//
+
+const toObject2 = ([name, brand, year]) => ({ name, brand, year });
+
+// console.log(toObject2(palio));
+// console.log(toObject2(shelbyCobra));
+// console.log(toObject2(chiron));
+
+
