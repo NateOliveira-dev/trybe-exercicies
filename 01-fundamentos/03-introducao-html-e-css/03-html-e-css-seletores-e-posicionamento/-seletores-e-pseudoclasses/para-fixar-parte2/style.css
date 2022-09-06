@@ -1,0 +1,48 @@
+div:hover {
+    border: 6px solid black;
+}
+
+div:hover:nth-of-type(1) {
+    background-color: red;
+}
+div:hover:nth-of-type(2) {
+    background-color: green;
+}
+div:hover:nth-of-type(3) {
+    background-color: blue;
+}
+div:hover:nth-of-type(4) {
+    background-color: yellow;
+}
+div:hover:nth-of-type(5) {
+    background-color: palevioletred;
+}
+
+div:nth-of-type(1) > h3 {
+    font-family: cursive;
+    font-style: unset;
+}
+div:nth-of-type(2)  > h3 {
+    font-family: fantasy;
+    font-style: normal;
+}
+div:nth-of-type(3)  > h3 {
+    font-family: monospace;
+    font-style: oblique;
+}
+div:nth-of-type(4)  > h3 {
+    font-family: sans-serif;
+    font-style: inherit;
+}
+div:nth-of-type(5)  > h3 {
+    font-family: initial;
+    font-style: initial;
+}
+
+div:nth-of-type(3) {
+    height: 120px;
+}
+
+div:nth-child(odd) h3 {
+    font-style: italic
+}
