@@ -1,0 +1,42 @@
+form {
+    margin: 25px;
+    padding: 25px;
+    border: 5px solid black;
+    width: 30%;
+}
+
+
+#nome-do-usuario {
+    margin-left: 10px;
+}
+
+#email-do-usuario {
+    margin-left: 6px;
+}
+
+#nome-email {
+    margin: 5px;
+}
+
+#radio {
+    display: inline-block;
+    margin: 5px;
+}
+
+#texto {
+    margin: 5px;
+}
+
+#texto label {
+    display: inline-block;
+    margin: 5px;
+}
+
+#text-area {
+    resize: none;
+    width: 100%;
+}
+
+#termos {
+    margin: 5px;
+}
