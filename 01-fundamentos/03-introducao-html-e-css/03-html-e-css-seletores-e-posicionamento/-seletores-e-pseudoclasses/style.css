@@ -1,0 +1,9 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    list-style: none;
+}

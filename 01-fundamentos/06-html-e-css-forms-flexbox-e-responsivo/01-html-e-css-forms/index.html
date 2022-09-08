@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms Exercício</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de Viagem!</h1>
+    </header>
+    <form action="">
+        <div id="nome-email">
+            <label for="nome-do-usuario">Nome:</label>
+            <input type="text" id="nome-do-usuario" name="nome" minlength="10" maxlength="40">
+            <br>
+            <label for="email-do-usuario">E-mail:</label>
+            <input type="email" id="email-do-usuario" name="email" minlength="10" maxlength="50">
+        </div>
+        <div id="radio">
+            <input type="radio" id="opc1" name="opcao" value="Cidade">
+            <label for="opc1">Cidade</label>
+            <input type="radio" id="opc2" name="opcao" value="Campo">
+            <label for="opc2">Campo</label>
+            <input type="radio" id="opc3" name="opcao" value="Praia">
+            <label for="opc3">Praia</label>
+            <input type="radio" id="opc4" name="opcao" value="Montanhas">
+            <label for="opc4">Montanhas</label>
+        </div>
+        <div id="texto">
+            <label for="text-area">Espaço para digitar sua resposta:</label>
+            <br>
+            <textarea name="resposta" id="text-area" cols="30" rows="5" maxlength="500"></textarea>
+        </div>
+        <div id="data">
+            <label for="data">Qual a melhor data para realizar sua viagem?
+                <br>
+                <input type="date">
+            </label>
+        </div>
+        <div id="termos">
+            <input type="checkbox" name="temos" id="termo1">
+            <label for="termo1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+            <br>
+            <input type="checkbox" name="temos" id="termo2">
+            <label for="termo2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+                futuros.</label>
+        </div>
+    </form>
+    <div id="btn">
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </div>
+
+</body>
+
+</html>
