@@ -89,4 +89,3 @@ const people = [
  };
 
 //  console.log(filterPeople());
-
